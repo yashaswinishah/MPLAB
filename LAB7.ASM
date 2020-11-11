@@ -14,8 +14,8 @@ BACK: MOV BH,00H
 
       MOV AL,CL
       ADD AL,00H
-      AAM            ; 0000
-      ADD AX,3030H    ;3030
+      AAM           
+      ADD AX,3030H    
       MOV CH,AL
       MOV DL,AH
       MOV AH,02H
